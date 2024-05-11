@@ -23,4 +23,38 @@ h1 {
 
 h6 {
     font-size: 20px;
+    margin: 15px;
+}
+
+.ul-inline > li {
+    display: inline;
+}
+
+.icons-spacing {
+    margin: 0px 7px;
+}
+
+.stylized-icons {
+    width: 20px;
+    height: 20px;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.flex-direction-column {
+    flex-direction: column;
+}
+
+.flex-direction-row {
+    flex-direction: row;
 }
