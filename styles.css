@@ -8,7 +8,7 @@ html {
 }
 
 body {
-    display: flex;
+    display: grid;
     flex-direction: column;
     background-color: #000;
     /* font-family: "Montserrat", sans-serif; */
@@ -57,4 +57,25 @@ h6 {
 
 .flex-direction-row {
     flex-direction: row;
+}
+
+.list-style-none {
+    list-style-type: none;
+}
+
+.goto {
+    text-align: right; margin-right: 0.6rem; text-decoration: underline;
+    text-decoration-style: wavy;
+}
+
+#the_who {
+    display: none;
+}
+
+#the_who_2 {
+    display: none;
+}
+
+select {
+    float: right;
 }
