@@ -26,6 +26,10 @@ h6 {
     margin: 15px;
 }
 
+ul {
+    /* line-height: 0.5em; */
+}
+
 li {
     width: fit-content;
 }
@@ -80,15 +84,27 @@ li {
     display: none;
 }
 
-#the_what_1 + #the_what_2 {
+/* #the_what_1 + #the_what_2 + #the_what_3 {
     display: none;
+} */
+
+[id^="the_what_"] {
+    display: none;
+   }
+
+[id^="the_fun_"] {
+ display: none;
 }
 
+/* #the_fun_1 + #the_fun_2 + #the_fun_3  {
+    display: none;
+}
+ */
 .dotted-dash {
     text-decoration: underline dotted;
     cursor: pointer;
 }
 
 select {
-    float: right;
+    /* float: ce; */
 }
