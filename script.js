@@ -21,6 +21,8 @@ const the_fun_1 = document.getElementById("the_fun_1");
 const the_fun_2 = document.getElementById("the_fun_2");
 const the_fun_3 = document.getElementById("the_fun_3");
 
+const goToSelector = document.getElementById("goToSelector");
+
 const show = (elem) => elem.style.display = "block";
 const hide = (elem) => elem.style.display = "none";
 
@@ -106,4 +108,20 @@ fun_3.addEventListener("mouseover", () => {
 
 fun_3.addEventListener("mouseout", () => {
     hide(the_fun_3);
+});
+
+goToSelector.addEventListener("change", (event) => {
+    console.log(`select object:`, event.target.value);
+
+    const targetId = event.target.value;
+    const targetElement = document.querySelector(`#${targetId}`);
+    
+    if (targetElement) {
+        // Scroll to the target element
+        targetElement.scrollIntoView({ behavior: 'smooth' });
+
+        // Append the target ID to the URL
+        window.history.replaceState({}, '', `#${targetId}`);
+    }
+
 });

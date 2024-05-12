@@ -10,9 +10,10 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="d-flex justify-content-center align-items-center flex-direction-column">
+    <div class="d-flex justify-content-center align-items-center flex-direction-column hero">
     <h1>Praveen Kumar</h1>
-        <div>
+    <h4>Full Stack - Backend Focused Developer, Self-Taught, Proactive Engineer</h4>
+        <!-- <div> -->
             <ul class="ul-inline d-flex justify-content-center align-items-center" style="padding: 1px;">
                 <li class="icons-spacing" style="list-style-type: none;">
                     <a href="https://www.linkedin.com/in/praveenkumar97/">
@@ -30,17 +31,17 @@
                     </a>
                 </li>
             </ul>
-        </div>
-        <small style="text-align: center;"><i>(Hover over dotted lines to know more)</i></small>
+        <!-- </div> -->
+        <i style="text-align: center;">(Hover over dotted lines to know more)</i>
+        &nbsp;
+        <select name="goToMenu" id="goToSelector" style="width: fit-content; margin: auto;">
+            <option value="">GoTo</option> 
+            <option value="goto-who">🙋Who</option> 
+            <option value="goto-what">❓What</option> 
+            <option value="goto-fun">😎Fun</option> 
+            <option value="goto-skills">🍳Skills</option>
+        </select>
     </div>
-
-    <span class="goto" id="gtdropdown">Go To</span>
-    <select name="goToMenu" id="goToSelector" style="width: fit-content;">
-        <option value="">GoTo</option> 
-        <option value="who">🙋Who</option> 
-        <option value="what">❓What</option> 
-        <option value="fun">Fun</option> 
-    </select>
 
     <h6 id="goto-who">THE WHO 🙋</h6>
     <div>
@@ -93,7 +94,7 @@
         </ul>
     </div>
 
-    <h6 id="the-what">THE WHAT ❓</h6>
+    <h6 id="goto-what">THE WHAT ❓</h6>
     <ul style="line-height: 1.5em;">
     <li>
         <p>Demonstrated Abilities</p>
@@ -166,7 +167,7 @@
     </li>
     </ul>
 
-    <h6 id="the-fun">THE FUN 😎</h6>
+    <h6 id="goto-fun">THE FUN 😎</h6>
     <ul style="line-height: 1em;">
     <li>
         <p class="dotted-dash" id="fun_1">Star Wars</p>
@@ -193,7 +194,7 @@
     </li>
     </ul>
 
-    <h6 id="skills">SKILLS 🍳</h6>
+    <h6 id="goto-skills">SKILLS 🍳</h6>
     <ul class="list-style-none" style="display: grid; grid-row: auto; grid-auto-rows: max-content; margin: 0;">
     <li>
         <p>Front End</p>
@@ -222,6 +223,9 @@
     </ul>
 
 
+    <footer class="d-flex justify-content-center align-items-center">
+        Portfolio 2024
+    </footer>
     <!-- script just before body tag for SEO purpose -->
     <script src="script.js"></script>
 </body>
