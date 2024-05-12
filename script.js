@@ -5,6 +5,9 @@ const who = document.getElementById("the_who");
 const what_1 = document.getElementById("what_1");
 const the_what_1 = document.getElementById("the_what_1");
 
+const what_2 = document.getElementById("what_2");
+const the_what_2 = document.getElementById("the_what_2");
+
 const my_journey_2 = document.getElementById("my_journey_2");
 const the_who_2 = document.getElementById("the_who_2");
 
@@ -22,16 +25,6 @@ journey.addEventListener("mouseout", () => {
     hide(who);
 });
 
-what_1.addEventListener("mouseover", () => {
-    // the_what_1.style.display = "block";
-    show(the_what_1);
-});
-
-what_1.addEventListener("mouseout", () => {
-    // the_what_1.style.display = "none";
-    hide(the_what_1);
-});
-
 my_journey_2.addEventListener("mouseover", () => {
     show(the_who_2);
 })
@@ -39,3 +32,19 @@ my_journey_2.addEventListener("mouseover", () => {
 my_journey_2.addEventListener("mouseout", () => {
     hide(the_who_2);
 })
+
+what_1.addEventListener("mouseover", () => {
+    show(the_what_1);
+});
+
+what_1.addEventListener("mouseout", () => {
+    hide(the_what_1);
+});
+
+what_2.addEventListener("mouseover", () => {
+    show(the_what_2);
+});
+
+what_2.addEventListener("mouseout", () => {
+    hide(the_what_2);
+});
