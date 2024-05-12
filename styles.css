@@ -76,6 +76,11 @@ h6 {
     display: none;
 }
 
+.dotted-dash {
+    text-decoration: underline dotted;
+    cursor: pointer;
+}
+
 select {
     float: right;
 }

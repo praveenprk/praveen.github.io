@@ -35,3 +35,7 @@ what_1.addEventListener("mouseout", () => {
 my_journey_2.addEventListener("mouseover", () => {
     show(the_who_2);
 })
+
+my_journey_2.addEventListener("mouseout", () => {
+    hide(the_who_2);
+})
