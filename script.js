@@ -1,4 +1,3 @@
-// Select all "The Journey" or "Professional Experience" items
 const journey = document.getElementById("my_journey");
 const who = document.getElementById("the_who");
 
@@ -14,14 +13,22 @@ const the_who_2 = document.getElementById("the_who_2");
 const show = (elem) => elem.style.display = "block";
 const hide = (elem) => elem.style.display = "none";
 
+/* const toggleVisibility = () => {
+    if()
+} */
+
+window.addEventListener("load", () => {
+    console.log(`onload:`);
+    [who, the_what_1, the_what_2, the_who_2].map((e) => {
+        e.style.display = "none";
+    });
+});
 
 journey.addEventListener("mouseover", () => {
-    // who.style.display = "block";
     show(who);
 });
 
 journey.addEventListener("mouseout", () => {
-    // who.style.display = "none";
     hide(who);
 });
 
