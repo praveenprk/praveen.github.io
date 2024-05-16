@@ -32,8 +32,8 @@
                 </li>
             </ul>
         <!-- </div> -->
-        <i style="text-align: center;">(Hover over dotted lines to know more)</i>
-        &nbsp;
+        <!-- <i style="text-align: center;">(Hover over dotted lines to know more)</i> -->
+        <!-- &nbsp; -->
         <select name="goToMenu" id="goToSelector" style="width: fit-content; margin: auto;">
             <option value="">GoTo</option> 
             <option value="goto-who">🙋Who</option> 
@@ -42,9 +42,10 @@
             <option value="goto-skills">🍳Skills</option>
         </select>
     </div>
-
+    &nbsp;
+    <div class="d-flex justify-content-center align-items-center flex-direction-column" style="justify-content: space-evenly;">
     <h6 id="goto-who">THE WHO 🙋</h6>
-    <div>
+    <div class="d-flex justify-content-left">
         <ul>
             <li>
                 <p class="dotted-dash" id="my_journey">Coder since 2015 (The Journey)</p>
@@ -76,7 +77,7 @@
                     </li>
                 </ul>
             </li>
-            <!-- &nbsp; -->
+            &nbsp;
             <li>
                 <p class="dotted-dash" id="my_journey_2">2+ years of professional / industry experience</p>
                 <ul id="the_who_2">
@@ -125,6 +126,7 @@
                 </ul>
             </li>
         </ul>
+        &nbsp;
         <ul>
             <li class="dotted-dash" id="what_2">During Freelance</li>
                 <ul id="the_what_2">
@@ -143,6 +145,7 @@
                 </ul>
             </li>
         </ul>
+        &nbsp;
         <ul>
             <li class="dotted-dash" id="what_3">Varsity years</li>
                 <ul id="the_what_3">
@@ -166,7 +169,6 @@
         </ul>
     </li>
     </ul>
-
     <h6 id="goto-fun">THE FUN 😎</h6>
     <ul style="line-height: 1em;">
     <li>
@@ -193,11 +195,12 @@
         </ul>
     </li>
     </ul>
-
-    <h6 id="goto-skills">SKILLS 🍳</h6>
-    <ul class="list-style-none" style="display: grid; grid-row: auto; grid-auto-rows: max-content; margin: 0;">
+</div>
+&nbsp;
+    <h6 id="goto-skills" style="text-align: center;">SKILLS 🍳</h6>
+    <ul class="list-style-none d-flex justify-content-center flex-direction-row" style="gap: 5em;" >
     <li>
-        <p>Front End</p>
+        <p><u>Front End</u></p>
         <ul>
             <li>ReactJS</li>
             <li>Redux/Redux Toolkit</li>
@@ -206,7 +209,7 @@
         </ul>
     </li>
     <li>
-        <p>Back End</p>
+        <p><u>Back End</u></p>
         <ul>
             <li>NodeJS</li>
             <li>ExpressJS</li>
@@ -214,13 +217,13 @@
         </ul>
     </li>
     <li>
-        <p>Database</p>
+        <p><u>Database</u></p>
         <ul>
             <li>MySQL</li>
             <li>MongoDB</li>
         </ul>
     </li>
-    </ul>
+</ul>
 
 
     <footer class="d-flex justify-content-center align-items-center">

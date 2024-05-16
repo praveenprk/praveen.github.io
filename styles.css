@@ -55,8 +55,24 @@ li {
     justify-content: center;
 }
 
+.justify-content-right {
+    justify-content: right;
+}
+
+.justify-content-left {
+    justify-content: left;
+}
+
 .align-items-center {
     align-items: center;
+}
+
+.align-items-left {
+    align-items: left;
+}
+
+.align-items-right {
+    align-items: right;
 }
 
 .flex-direction-column {
@@ -81,11 +97,11 @@ li {
 }
 
 #the_who {
-    display: none;
+    /* display: none; */
 }
 
 #the_who_2 {
-    display: none;
+    /* display: none; */
 }
 
 /* #the_what_1 + #the_what_2 + #the_what_3 {
@@ -93,11 +109,11 @@ li {
 } */
 
 [id^="the_what_"] {
-    display: none;
+    /* display: none; */
    }
 
 [id^="the_fun_"] {
- display: none;
+ /* display: none; */
 }
 
 /* #the_fun_1 + #the_fun_2 + #the_fun_3  {
@@ -106,7 +122,7 @@ li {
  */
 .dotted-dash {
     text-decoration: underline dotted;
-    cursor: pointer;
+    /* cursor: pointer; */
 }
 
 select {

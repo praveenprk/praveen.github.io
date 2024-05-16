@@ -1,4 +1,4 @@
-const journey = document.getElementById("my_journey");
+/* const journey = document.getElementById("my_journey");
 const who = document.getElementById("the_who");
 
 const what_1 = document.getElementById("what_1");
@@ -24,13 +24,13 @@ const the_fun_3 = document.getElementById("the_fun_3");
 const goToSelector = document.getElementById("goToSelector");
 
 const show = (elem) => elem.style.display = "block";
-const hide = (elem) => elem.style.display = "none";
+const hide = (elem) => elem.style.display = "none"; */
 
 /* const toggleVisibility = () => {
     if()
 } */
 
-window.addEventListener("load", () => {
+/* window.addEventListener("load", () => {
     console.log(`onload`);
     [
         who, 
@@ -44,9 +44,9 @@ window.addEventListener("load", () => {
     ].map((e) => {
         e.style.display = "none";
     });
-});
+}); */
 
-journey.addEventListener("mouseover", () => {
+/* journey.addEventListener("mouseover", () => {
     show(who);
 });
 
@@ -109,7 +109,7 @@ fun_3.addEventListener("mouseover", () => {
 fun_3.addEventListener("mouseout", () => {
     hide(the_fun_3);
 });
-
+ */
 goToSelector.addEventListener("change", (event) => {
     console.log(`select object:`, event.target.value);
 
